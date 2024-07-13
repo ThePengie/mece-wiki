@@ -4,8 +4,12 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-family-base: 'Source Sans 3';
+
   --ifm-color-primary: #c8102e;
   --ifm-color-primary-dark: #960c22;
   --ifm-color-primary-darker: darken(var(--ifm-color-primary-dark), 30%);
