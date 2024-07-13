@@ -38,6 +38,17 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      'docusaurus-lunr-search',
+      {
+        highlightResult: true,
+        indexBaseUrl: true,
+        languages: ['en'],
+      },
+    ]
+  ],
+
   presets: [
     [
       'classic',
