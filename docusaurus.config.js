@@ -42,6 +42,7 @@ const config = {
     [
       'docusaurus-lunr-search',
       {
+        // settings: https://github.com/praveenn77/docusaurus-lunr-search
         highlightResult: true,
         indexBaseUrl: true,
         languages: ['en'],
