@@ -43,6 +43,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        pages: {
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
+        },
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
