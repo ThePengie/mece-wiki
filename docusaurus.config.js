@@ -121,10 +121,6 @@ const config = {
                 label: 'Cullen College of Engineering',
                 href: 'https://www.egr.uh.edu/',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
           {
