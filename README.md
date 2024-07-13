@@ -2,40 +2,30 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+## Running the site locally
+
 ### Installation
 
-```
-$ yarn
+```shell
+npm install
 ```
 
 ### Local Development
 
-```
-$ yarn start
+```shell
+npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```shell
+npm run build
 ```
 
-Not using SSH:
+This command generates static content into the `build` directory and can be served using any static contents hosting service. If you want to test out the statically build content locally, you can use:
 
+```shell\
+npm run serve
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

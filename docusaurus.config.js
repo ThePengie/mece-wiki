@@ -6,6 +6,10 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+// enabling KaTeX: https://docusaurus.io/docs/markdown-features/math-equations
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UH MECE Wiki',
@@ -39,12 +43,18 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        pages: {
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
+        },
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/thepengie/mece-wiki/tree/main/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
@@ -52,6 +62,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/thepengie/mece-wiki/tree/main/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -136,6 +148,13 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+    stylesheets: [
+      {
+        href: '/katex/0.16.11/katex.min.css',
+        type: 'text/css'
+      }
+    ]
 };
 
 export default config;
