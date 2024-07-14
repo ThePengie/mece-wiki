@@ -90,10 +90,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'UH MECE Wiki',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/uh_red.png',
         },
         items: [
           {
@@ -104,7 +104,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/thepengie/mece-wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,19 +123,15 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'University of Houston',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'UH.edu',
+                href: 'https://uh.edu/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Cullen College of Engineering',
+                href: 'https://www.egr.uh.edu/',
               },
             ],
           },
@@ -148,7 +144,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/thepengie/mece-wiki',
               },
             ],
           },
