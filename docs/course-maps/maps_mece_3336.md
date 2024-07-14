@@ -1,3 +1,10 @@
+---
+id: mece-3336-map
+title: MECE 3336 - Dynamics
+description: Course Map for MECE 3336
+slug: mece-3336
+---
+
 # Learning Objectives
 # Pre-Requisite Concepts
 * [Vector Algebra](./vectors)
