@@ -7,7 +7,7 @@ slug: mece-3336
 
 # Learning Objectives
 # Pre-Requisite Concepts
-* [Vector Algebra](./vectors)
+* [Vector Algebra](../vectors)
 * [[Reaction Loads (Forces and Moments)|reactions]]
 * Free Body Diagrams
 * Derivatives and Integrals (Calculus)
